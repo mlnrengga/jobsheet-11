@@ -7,14 +7,14 @@ public class TugasIndividu3 {
         scanner.close();
         for (int i = 0; i < N; i++) {
             System.out.print(N);
-            System.out.print(" ");
+            System.out.print(' ');
             for (int j = 1; j < N - 1; j++) {
                 if (i == 0 || i == N - 1)
                     System.out.print(N);
                 else
                     for (int j2 = 0; j2 < Integer.toString(N).length(); j2++)
-                        System.out.print(" ");
-                System.out.print(" ");
+                        System.out.print(' ');
+                System.out.print(' ');
             }
             System.out.print(N);
             System.out.println();
